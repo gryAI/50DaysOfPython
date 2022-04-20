@@ -10,14 +10,15 @@ def convert_add(num):
     :param args: list(str): list of strings
     :return: int
     """
-    numbers = [int(x) for x in num]
-    result = sum(numbers)
+    int_list = [int(x) for x in num]
+    result = sum(int_list)
 
-    return result
+    return int_list, result
 
 
 # Simulate the function
-simulation = convert_add(num = ['1', '3', '5'])
-print(simulation)
+int_list, result = convert_add(num = ['1', '3', '5'])
+print(f'The new list is: {int_list}\n'
+      f'Sum of values is: {result}')
 
 
