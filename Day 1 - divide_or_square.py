@@ -1,6 +1,6 @@
 """
 Created on Thu Apr  7 01:52:31 2022
-@author: LUMINE
+@author: GRACE ESTRADA
 
 Day 1 50 Days of Python
 
